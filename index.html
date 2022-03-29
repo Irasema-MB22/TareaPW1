@@ -1,75 +1,124 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="css/styles.css">
+
+
+
+<title>Index tarea</title>
+
+
 </head>
-<body style="background-color:powderblue;">
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<body >
+
+    <h1>My First Emoji</h1>
+
+    <p>&#128512;
+        &#128525;
+        &#128151;
+    </p>
+
+<h1>Encabezado 1</h1>
+<p>Parrafo</p>
 
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
 
-<h1>My First Heading</h1>
-
-<p>My first paragraph.</p>
-
-<h2>HTML Images</h2>
+<h2>HTML Images - encabezado 2</h2>
 <p>HTML images are defined with the img tag:</p>
 
-<img src="descarga.png" alt="W3Schools.com" width="104" height="142">
+<img src="imagenes/descarga.png" alt="W3Schools.com" width="104" height="142">
 
-<p>This is a <br> paragraph with a line break.</p>
+<p>This is a <br>párrafo con un salto de línea.</p>
 
-<a href="https://www.w3schools.com">Visit W3Schools</a>
+<a href="https://www.w3schools.com" target="_blank">Visia la pagina de W3Schools - Abre la pagina en una nueva ventana - Atributo "_blank"</a>
 
-<img src="descarga.png" width="500" height="600">
+<img src="imagenes/descarga.png" width="500" height="600">
+
+<h1>Mapa Imagen</h1>
+<p>La "map"etiqueta HTML define un mapa de imagen. Un mapa de imagen es una imagen con áreas en las que se puede hacer clic. Las áreas se definen con una o más "area"etiquetas.
+<br><br>El "usemap" valor comienza con una etiqueta hash #seguida del nombre del mapa de imagen y se usa para crear una relación entre la imagen y el mapa de imagen.
+<br><br>Forma
+<br><br>Debe definir la forma del área en la que se puede hacer clic y puede elegir uno de estos valores:
+<br>rect- define una región rectangular
+circle- define una región circular
+poly- define una región poligonal
+default- define toda la región</p>
+
+<img src="imagenes/workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+<h1 style="font-size:20;">Imagen de fondo en un elemento HTML</h1>
+<p style="background-image: url('imagenes/foondo.jpg'); " >Para agregar una imagen de fondo en un elemento HTML, use el style atributo HTML y la background-imagepropiedad CSS, para los parrafos o el cuerpo de la pagina (pagina)
+<br><br>Para evitar que la imagen de fondo se repita, establezca la background-repeat propiedad en no-repeat.
+<br>Example: background-repeat: no-repeat;
 
 
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-<h1 style="font-size:60px;">Heading 1</h1>
 
 
+</p>
+
+
+
+
+
+<h1 style="font-size:20;">Heading 1 - information of paragrahph in the source code and the browse</h1>
+
+<div class="city">
 <p>
 This paragraph
 contains a lot of lines
 in the source code,
 but the browser
 ignores it.
+
+<span style="border: 1px solid black">Este párrafo</span>
+contiene muchas lineas
+en el código fuente,
+pero el navegador
+lo ignora
 </p>
+</div>
 
 <p>
-This paragraph
+<span style="border: 1px solid black">This paragraph</span>
 contains         a lot of spaces
 in the source         code,
 but the        browser
 ignores it.
+
+
+Este párrafo
+contiene muchos espacios
+en el código fuente,
+pero el navegador
+lo ignora
 </p>
 
 <tagname style="property:value;">
 
 <strong>This text is important!</strong>
 
-<blockquote cite="http://www.worldwildlife.org/who/index.html">
-For 50 years, WWF has been protecting the future of nature.
+<blockquote id="C4" cite="http://www.worldwildlife.org/who/index.html">
+CAP4 - Prueba para marcador
+
+<br><br><span>For 50 years</span>, WWF has been protecting the future of nature.
 The world's leading conservation organization,
 WWF works in 100 countries and is supported by
 1.2 million members in the United States and
 close to 5 million globally.
 </blockquote>
 
-
-<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
-
-
-<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
 
 
 <address>
@@ -85,10 +134,147 @@ USA
 
 <bdo dir="rtl">This text will be written from right to left</bdo>
 
+
+<h1 style="font-size:20;">Tipos de ENLACES</h1>
+
+<h2>Absolute URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+<p><a href="mailto:someone@example.com">Send email</a></p>
+
+<h2 style="font-size:20;">Boton como enlace</h2>
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+<h2 style="font-size:20;">Titulos de enlaces</h2>
+<p><a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a></p>
+
+
+
+<h1 style="font-size:20;">Colores de ENLACES</h1>
+<p>Por defecto, aparecerá un enlace como este (en todos los navegadores):
+
+<br><br>Un enlace no visitado está subrayado y azul
+<br>Un enlace visitado está subrayado y morado
+<br>Un enlace activo está subrayado y rojo.
+<br><br>Puede cambiar los colores del estado del enlace usando CSS con los siguientes atributos:  link, visited, hover, active 
+<br><br>OBS: Comprobar con los links mas arriba
+<br><br>Un enlace también se puede diseñar como un botón y agregarle estilos, usando CSS:
+
+<br><br><button onclick="document.location='default.asp'"><a href="default.asp" target="_blank">This is a link</a></button>
+</p>
+
+
+<h1 style="font-size:20;">Marcadores en HTML</h1>
+<p>Use el id atributo (id=" value ") para definir marcadores en una página
+<br>Use el href atributo (href="# value ") para vincular al marcador
+<br><br><a href="#C4">Jump to Chapter 4</a></p>
+
+
+
+<h1 style="font-size:20;">Tablas en HTML</h1>
+<table>
+  <tr>
+    <th style="width:45%" >Company</th>
+    <th style="width:40%">Contact</th>
+    <th style="width:20%">Country</th>
+  </tr>
+  <tr>
+    <td >Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+   <tr>
+    <td>CC mercars</td>
+    <td>Pepito</td>
+    <td>Paraguay</td>
+  </tr>
+</table>
+
+
+<br><br><table style="width: 100%;">
+<colgroup>
+  <col span="1" style="background-color: rgb(255, 180, 255);">
+</colgroup>
+<tr>
+<th>MON</th>
+<th>TUE</th>
+<th>WED</th>
+</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+</tr>
+<tr>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+</tr>
+<tr>
+<td>22</td>
+<td>23</td>
+<td>24</td>
+</tr>
+</table>
+
+<h1 style="font-size:20;">Listas HTML</h1>
+<h2 style="font-size:20;">Lista desordenada</h2>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<h2 style="font-size:20;">Lista Ordenada</h2>
+<ol type="A">
+  <li><a href="#about">Coffee</a></li>
+  <li><a href="#about">Tea</a></li>
+  <li><a href="#about">Milk</a></li>
+</ol>
+
+
+<br><br><h2 style="font-size:15;">Other list</h2>
+<br><br><dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
+
+
+
+<h1 id="myHeader">My Header</h1>
+
+
+<iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
+
+<p><a href="https://www.youtube.com/watch?v=QJO3ROT-A4E" target="iframe_a">Youtube.music</a></p>
+
+
+<p>I will display &euro;</p>
+<p>I will display &#8364;</p>
+<p>I will display &#x20AC;</p>
+
 <!-- Write your comments here -->
 
-<h1 style="background-color:DodgerBlue;">Hello World</h1>
-<p style="background-color:Tomato;">Lorem ipsum...</p>
+
+
 
 
 </body>

@@ -1,0 +1,128 @@
+
+
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+body {background-color: white;}
+h1   {color: pink;
+  	  font-family: verdana;
+  	  font-size: 300%;
+				}
+                
+h2   {color: black;
+  	  font-family: verdana;
+  	  font-size: 200%;
+				}
+                
+                
+p    {color: purple;
+	  font-size: 150%;
+      border: 2px solid powderblue;
+      padding: 30px;
+      margin: 50px;
+}
+
+button{
+
+	   color: white;
+       font-size: 125%;
+       border: 2px solid black;
+       font-color: pink;    
+         padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: black;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  aligne: center
+}
+
+ td  th {
+  background-color: rgb(255, 180, 255);
+ /* border-style: solid;
+ */
+  border-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+tr:nth-child(even) {
+  background-color: rgb(255, 180, 255);
+  border-color: white;
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgb(255, 180, 255);
+  border-color: white;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(153, 152, 153);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(153, 152, 153);
+}
+
+
+.city {
+  background-color: grey;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
